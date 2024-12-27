@@ -1,0 +1,293 @@
+/* .container{
+    
+  background-image: url("C:\Users\allan\Downloads\2d6ece16dd7ab4ed2701047586bc80f0cb68835c (1)\CSS Advanced\Object.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1440px;
+  height: 1093px
+} */
+ body{
+  font-family:"Source Sans Pro"; 
+    background-image: url("C:/Users/allan/OneDrive/Pictures/Object.png");
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-position: center; /* Centers the image */
+    margin: 0; /* Removes default margin to ensure full background coverage */
+    padding: 0; /* Removes default padding */
+    color: #ffff;
+}
+
+.logo{
+  display: inline-block;
+  padding-left: 40px;
+  margin-top: 20px;
+  margin: 10px;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding: right 60px; 
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    gap: 30px;
+    font-weight: bold;
+    padding-right: 100px;
+}
+nav ul li a{
+    color:#ffff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+  color:#c271ff;
+  text-decoration: none;
+}
+.leading{
+  margin-top: 100px;
+  text-align: center;
+}
+.cards h1{
+    font-size: 120px;
+    margin-bottom: 2px;
+}
+.cards span{
+    margin: 0 30px;
+    font-size: 1rem;
+    justify-content: space-around
+    
+}
+.cards button{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px 32px;
+    background-color: #D936FF; /* Vibrant purple button */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded button */
+    font-size: 1rem;
+    cursor: pointer;
+}
+.head{
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+.highlight{
+    color: #D936FF;
+}
+/*.cards section */
+.card{
+    display: inline-block;
+    flex-direction: row;
+    margin: 0 40px;
+}
+/* Container for the testimonial */
+.testimonial-container {
+    background-color: #d291ff; /* Purple background */
+    color: white; /* White text color */
+    padding: 90px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    border-top: 20px;
+    margin: 0 250px; /* Center the container */
+    text-align: center; /* Center the text */
+}
+
+/* Circular image */
+.testimonial-image {
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide overflow */
+    margin: 0 auto; /* Center the image and add bottom margin */
+    position: absolute;
+    padding-left: 20px;
+}
+
+/* Quote text */
+.testimonial-quote {
+    font-size: 1.2em; /* Larger font size for the quote */
+    margin-bottom: 10px; /* Bottom margin */
+    padding-right: 50px;
+}
+
+/* Name and title */
+.testimonial-name {
+    font-weight: bold; /* Bold text for the name */
+    padding-right: auto;
+}
+
+.testimonial-title {
+    font-style: italic; /* Italic text for the title */
+    padding-right: auto;
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  .sup-popular{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-around;
+    padding: auto;
+    
+    
+  }
+  .sub-popular h3{
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+  }
+  .sub-popular p{
+    color:gray;
+    padding-right: 15px;
+  }
+  .popular h2{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-weight: 300;
+    font-size: 32px;
+  }
+  .popular span{
+    color: #c271ff;
+    font-weight: 700;
+  }
+  .play{
+    position: absolute;
+     bottom: 1520px;
+  }
+  .avatar{
+    width: 30px;
+    height: 30px;
+  }
+  .avatar-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .avatar-card h4{
+    color: #c271ff;
+  }
+  .star{
+    display: flex;
+  }
+  .rating{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    .rating p{
+      color: #c271ff;
+    }
+    .checked{
+      color: #c271ff;
+    }
+    .membership{
+        background-color: #071629;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .head2{
+        color: #ffff;
+        display: block;
+        text-align: center;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .highlight2{
+        color: #c271ff;
+    }
+    .member{
+        display: inline-block;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        margin: 0 40px; 
+        color: #ffff;
+    }
+    .button2{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        padding: 15px 32px;
+        background-color: #D936FF; /* Vibrant purple button */
+        color: white;
+        border: none;
+        border-radius: 25px; /* Rounded button */
+        font-size: 1rem;
+        cursor: pointer;  
+    }
+    .FAQ{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    .FAQ h2
+    {
+        color: #071629;
+        display: block;
+        text-align: center;
+        flex-direction: row;
+        font-size: 45px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .promax-faq{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      justify-content: space-around;
+      gap: 200px;
+      padding-left: 500px;
+      padding-right: 500px;
+    }
+    .promax-faq h3{
+      color: #071629;
+      font-weight: 250px;
+    }
+    .p1{
+      margin-bottom: 100px;
+    }
+    footer{
+      background-color: #071629;
+      padding-top: 30px;
+      padding-bottom: 0px;
+      margin-top: 40px;
+    }
+    .footer-logo{
+      width: 169px;
+      height: 30px;
+    }
+    .contact{
+    color: #ffff;
+    }
+    .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .brand{
+      display: flex;
+      flex-direction: row;
+      gap: 700px;
+      padding: 20px;
+    }
+    .footer p{
+      font-size: 12px;
+      font-weight: 400;
+      color:grey;
+    }
+    
