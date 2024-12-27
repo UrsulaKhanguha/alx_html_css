@@ -16,8 +16,7 @@ Welcome to the SmileSchool website repository! This project is designed to provi
 ## Technologies Used
 
 - **HTML5**: Structure of the website.
-- **CSS3**: Styling and layout.
-- **JavaScript**: For interactive elements (if applicable).
+- **CSS3**: Styling and layout
 - **Assets**: Images and icons used for branding and content.
 
 ---
